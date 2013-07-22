@@ -11,6 +11,6 @@ fi
 for i in $(seq 1 $COUNT)
 do	
 	sleep 1
-	echo $i
+	echo $((COUNT-i+1))
 done
 echo 
