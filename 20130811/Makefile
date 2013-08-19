@@ -11,4 +11,4 @@ main: $(OBJS)
 	${CC} ${CFLAGS} -o $@ $^
 
 clean:
-	rm -rf *.o diary
+	rm -rf *.o main
